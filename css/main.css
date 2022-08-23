@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+section{
+  height: 200vh;
+  background-color: #000;
+}
+section::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f);
+  mix-blend-mode: color;
+}
+
+h1{
+  color: #fff;
+  font-size: 4em;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  text-align: center;
+  width: 100%;
+}
+h1 span{
+  display: inline-block;
+  animation: mustaqillik 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes mustaqillik {
+  0% {
+    transform: rotateY(90deg);
+    filter: blur(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+video{
+  height: 100vh;
+}
+
+h1 span:nth-child(1) {
+  animation-delay: 0.25s;
+  color: aqua;
+}
+h1 span:nth-child(2) {
+  animation-delay: .5s;
+  color: bisque;
+}
+h1 span:nth-child(3) {
+  animation-delay: .75s;
+  color: aquamarine;
+}
+h1 span:nth-child(4) {
+  animation-delay: 1s;
+  color: azure;
+}
+h1 span:nth-child(5) {
+  animation-delay: 1.25s;
+  color: brown;
+}
+h1 span:nth-child(6) {
+  animation-delay: 1.5s;
+  color: cadetblue;
+}
+h1 span:nth-child(7) {
+  animation-delay: 1.75s;
+  color: blueviolet;
+}
+h1 span:nth-child(8) {
+  animation-delay: 1.75s;
+  color: #ff0;
+}
+h1 span:nth-child(9) {
+  animation-delay: 2s;
+  color: blue;
+}
+h1 span:nth-child(10) {
+  animation-delay: 2.25s;
+  color: burlywood;
+}
+h1 span:nth-child(11) {
+  animation-delay: 2.5s;
+  color: crimson;
+}
+h1 span:nth-child(12) {
+  animation-delay: 2.75s;
+  color: cornsilk;
+}
+h1 span:nth-child(13) {
+  animation-delay: 3s;
+  color: coral;
+}
+h1 span:nth-child(14) {
+  animation-delay: 3.25s;
+  color: darkgrey;
+}
+h1 span:nth-child(15) {
+  animation-delay: 3.5s;
+  color: darkolivegreen;
+}
+h1 span:nth-child(16) {
+  animation-delay: 3.75s;
+  color: darkorchid;
+}
+h1 span:nth-child(17) {
+  animation-delay: 4s;
+}
+h1 span:nth-child(18) {
+  animation-delay: 4.25s;
+  color: deepskyblue;
+}
+h1 span:nth-child(19) {
+  animation-delay: 4.5s;
+  color: darkgreen;
+}
+h1 span:nth-child(20) {
+  animation-delay: 4.75s;
+  color: dodgerblue;
+}
+h1 span:nth-child(21) {
+  animation-delay: 5s;
+  color: gold;
+}
+h1 span:nth-child(22) {
+  animation-delay: 5.25s;
+  color: hotpink;
+}
+h1 span:nth-child(23){
+  animation-delay: 5.75s;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  color: #0ff;
+}
